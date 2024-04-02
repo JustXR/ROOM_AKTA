@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneChangeDelay : MonoBehaviour
 {
-    private float delayTime = 30f; // Delay time in seconds
+    private float delayTime = 300f; // Delay time in seconds
 
     // Start is called before the first frame update
     void Start()
