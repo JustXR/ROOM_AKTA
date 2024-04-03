@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 13855432}
   - component: {fileID: 13855431}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Wall Plane 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -151,11 +151,11 @@ Transform:
   m_GameObject: {fileID: 13855429}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7062299, y: -0.00013108063, z: 0.00035923262, w: 0.7079825}
-  m_LocalPosition: {x: 0.48, y: 0.96, z: 2.38}
-  m_LocalScale: {x: 0.58752, y: 0.58752, z: 0.58752}
+  m_LocalPosition: {x: 0.18399999, y: -1.3209999, z: 1.9180001}
+  m_LocalScale: {x: 0.58752, y: 0.58752, z: 0.58752006}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1079203202}
   m_LocalEulerAnglesHint: {x: -89.853, y: -15.621, z: 15.639}
 --- !u!64 &13855431
 MeshCollider:
@@ -547,7 +547,7 @@ GameObject:
   - component: {fileID: 140722867}
   - component: {fileID: 140722866}
   m_Layer: 0
-  m_Name: Floor plane
+  m_Name: Floor Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -634,11 +634,11 @@ Transform:
   m_GameObject: {fileID: 140722865}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0001755897, y: 0.00016083715, z: 0.00034693175, w: 1}
-  m_LocalPosition: {x: 0.18, y: 0.07, z: 0.78}
-  m_LocalScale: {x: 0.4348412, y: 0.5875201, z: 0.49983862}
+  m_LocalPosition: {x: -0.116, y: -2.211, z: 0.31799996}
+  m_LocalScale: {x: 0.43484122, y: 0.5875201, z: 0.49983862}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1079203202}
   m_LocalEulerAnglesHint: {x: -0.02, y: 0.018, z: 0.04}
 --- !u!1 &171854776
 GameObject:
@@ -920,7 +920,7 @@ GameObject:
   - component: {fileID: 224662123}
   - component: {fileID: 224662122}
   m_Layer: 0
-  m_Name: Plane (3)
+  m_Name: Wall Plane 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1007,11 +1007,11 @@ Transform:
   m_GameObject: {fileID: 224662121}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5023191, y: 0.4990052, z: -0.50153375, w: 0.49712506}
-  m_LocalPosition: {x: -1.543, y: 1.063, z: 2.254}
-  m_LocalScale: {x: 0.02374845, y: 1, z: 0.20968768}
+  m_LocalPosition: {x: -1.858, y: -1.217, z: 1.789}
+  m_LocalScale: {x: 0.02664101, y: 1, z: 0.2139234}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1079203202}
   m_LocalEulerAnglesHint: {x: 90.46701, y: 70.989, z: -19.074005}
 --- !u!1 &299639867
 GameObject:
@@ -2340,7 +2340,7 @@ GameObject:
   - component: {fileID: 1056011955}
   - component: {fileID: 1056011954}
   m_Layer: 0
-  m_Name: Plane (5)
+  m_Name: Ceiling Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2427,12 +2427,50 @@ Transform:
   m_GameObject: {fileID: 1056011953}
   serializedVersion: 2
   m_LocalRotation: {x: 0.9999689, y: -0.00068622857, z: 0.007838811, w: -0.0005899014}
-  m_LocalPosition: {x: 0.296, y: 2.281, z: 0.462}
-  m_LocalScale: {x: 0.4294757, y: 1.165, z: 0.5029578}
+  m_LocalPosition: {x: 0, y: 0.001, z: 0}
+  m_LocalScale: {x: 0.42947572, y: 1.165, z: 0.5029579}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1079203202}
   m_LocalEulerAnglesHint: {x: 180.067, y: -0.89801025, z: 0.07899475}
+--- !u!1 &1079203201
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1079203202}
+  m_Layer: 0
+  m_Name: BakedWallsCeilings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1079203202
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079203201}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.296, y: 2.281, z: 0.462}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 140722869}
+  - {fileID: 13855430}
+  - {fileID: 2078393317}
+  - {fileID: 224662125}
+  - {fileID: 1111853945}
+  - {fileID: 1433731157}
+  - {fileID: 1056011957}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1092411774
 GameObject:
   m_ObjectHideFlags: 0
@@ -2529,7 +2567,7 @@ GameObject:
   - component: {fileID: 1111853943}
   - component: {fileID: 1111853942}
   m_Layer: 0
-  m_Name: Plane (2)
+  m_Name: Wall Plane 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2616,11 +2654,11 @@ Transform:
   m_GameObject: {fileID: 1111853941}
   serializedVersion: 2
   m_LocalRotation: {x: 0.50425005, y: 0.49704945, z: -0.5034721, w: 0.49516624}
-  m_LocalPosition: {x: -1.569, y: 1.529, z: -0.192}
-  m_LocalScale: {x: 0.2690081, y: 1, z: 0.34548932}
+  m_LocalPosition: {x: -1.865, y: -0.75199986, z: -0.65400004}
+  m_LocalScale: {x: 0.26900807, y: 1, z: 0.34548938}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1079203202}
   m_LocalEulerAnglesHint: {x: 89.099, y: -99.706, z: -189.77}
 --- !u!1 &1163373927
 GameObject:
@@ -3513,7 +3551,7 @@ GameObject:
   - component: {fileID: 1433731155}
   - component: {fileID: 1433731154}
   m_Layer: 0
-  m_Name: Plane (4)
+  m_Name: Wall Plane 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3600,11 +3638,11 @@ Transform:
   m_GameObject: {fileID: 1433731153}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7055089, y: -0.005944183, z: -0.004611818, w: 0.7086612}
-  m_LocalPosition: {x: 0.271, y: 1.531, z: -1.38}
-  m_LocalScale: {x: 0.38870317, y: 1, z: 0.34548932}
+  m_LocalPosition: {x: -0.025000006, y: -0.7499999, z: -1.842}
+  m_LocalScale: {x: 0.3887032, y: 1, z: 0.34548935}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1079203202}
   m_LocalEulerAnglesHint: {x: 90.892, y: 106.573, z: 106.681}
 --- !u!1001 &1591306297
 PrefabInstance:
@@ -5739,7 +5777,7 @@ GameObject:
   - component: {fileID: 2078393315}
   - component: {fileID: 2078393314}
   m_Layer: 0
-  m_Name: Plane (1)
+  m_Name: Wall Plane 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5826,11 +5864,11 @@ Transform:
   m_GameObject: {fileID: 2078393313}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5023191, y: 0.4990052, z: -0.50153375, w: 0.49712506}
-  m_LocalPosition: {x: -1.549, y: 2.614, z: 2.161}
+  m_LocalPosition: {x: -1.845, y: 0.33300018, z: 1.699}
   m_LocalScale: {x: 0.203378, y: 1, z: 0.10105}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1079203202}
   m_LocalEulerAnglesHint: {x: 90.46701, y: 70.989, z: -19.074005}
 --- !u!1001 &2121163024
 PrefabInstance:
@@ -5992,10 +6030,4 @@ SceneRoots:
   - {fileID: 617440266}
   - {fileID: 2063884929}
   - {fileID: 171854781}
-  - {fileID: 140722869}
-  - {fileID: 13855430}
-  - {fileID: 2078393317}
-  - {fileID: 224662125}
-  - {fileID: 1111853945}
-  - {fileID: 1433731157}
-  - {fileID: 1056011957}
+  - {fileID: 1079203202}
