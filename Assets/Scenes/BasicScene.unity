@@ -4091,6 +4091,14 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2034024817447371740, guid: f6233d8f941f106418899d38c5ad9636, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034024817447371740, guid: f6233d8f941f106418899d38c5ad9636, type: 3}
+      propertyPath: m_Center.y
+      value: 0.44
+      objectReference: {fileID: 0}
     - target: {fileID: 3267922816670765527, guid: f6233d8f941f106418899d38c5ad9636, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -4137,6 +4145,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4037973075238673511, guid: f6233d8f941f106418899d38c5ad9636, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983675269909082538, guid: f6233d8f941f106418899d38c5ad9636, type: 3}
+      propertyPath: m_ProvidesContacts
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4799,3 +4811,5 @@ SceneRoots:
   - {fileID: 42795644}
   - {fileID: 617440266}
   - {fileID: 2063884929}
+  - {fileID: 1365487864}
+  - {fileID: 1428902961}
