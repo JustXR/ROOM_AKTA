@@ -13,7 +13,7 @@ public class VRFootsteps : MonoBehaviour
   private Vector3 lastPosition; // Stores the character's position from the previous frame
   private bool isMoving = false;
   private float moveTimer = 0.0f; // Timer to control footstep frequency
-  private float footstepInterval = 0.3f; // Minimum time between footsteps (adjustable)
+  private float footstepInterval = 0.5f; // Minimum time between footsteps (adjustable)
 
   void Start()
   {
