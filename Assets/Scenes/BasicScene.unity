@@ -2026,6 +2026,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3127728407712097234, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+      propertyPath: m_MaxHeight
+      value: 1.8
+      objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -8727,7 +8731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79b1aac83e397e04ea4103a82f81dee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneChangeTime: 30
+  sceneChangeTime: 120
 --- !u!65 &2018199641
 BoxCollider:
   m_ObjectHideFlags: 0
